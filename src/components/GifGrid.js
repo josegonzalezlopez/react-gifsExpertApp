@@ -10,7 +10,7 @@ const GifGrid = ({category})=>{
     return(
         <Fragment>
             <h3 className="animate__animated animate__fadeIn">{ category }</h3>
-            { loading && <p className="card animate__animated animate__flash">Cargando...</p> }
+            { loading && <p className="animate__animated animate__flash">Cargando...</p> }
              <div className="card-grid">
                 {
                     data.map( gif=> (
